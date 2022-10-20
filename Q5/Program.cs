@@ -30,7 +30,7 @@ namespace Q5
 				Console.WriteLine(sunday.ToString("yyyy/MM/dd"));
 
 				// 找出每一個星期日
-				for (int i = week; i < yearNums - week; i ++ 7)
+				for (int i = week; i < yearNums - week; i += 7)
 				{
 					sunday = sunday.AddDays(7);
 					var value = sunday.ToString("yyyy/MM/dd");
