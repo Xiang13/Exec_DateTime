@@ -15,7 +15,7 @@ namespace Q7
 			DateTime today = DateTime.Today;
 			DateTime now = DateTime.Now;
 			int hour = now.Hour;
-			if (hour < 6 || hour < 12)
+			if (hour > 6 || hour < 12)
 			{
 				Console.WriteLine("Q7: 早安");
 			}
